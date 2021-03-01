@@ -16,6 +16,7 @@ const defaultInitOptions = {
   connectionTimeout: 0, // 0 sec
   keepAliveTimeout: 5000, // 5 sec
   bodyLimit: 1024 * 1024, // 1 MiB
+  idleTimeout: 250, // ms
   caseSensitive: true,
   disableRequestLogging: false,
   ignoreTrailingSlash: false,
